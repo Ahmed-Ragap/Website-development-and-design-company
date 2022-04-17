@@ -1,4 +1,6 @@
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   -os-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0px;
@@ -45,6 +47,9 @@ body button {
 ::-webkit-scrollbar-thumb:hover {
   background: #292929;
   -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
@@ -60,6 +65,10 @@ body button {
   z-index: 99999;
   padding: 15px 0;
   background-color: transparent;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 @media (max-width: 991px) {
@@ -141,8 +150,7 @@ header video {
   right: 0;
   bottom: 0;
   left: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 header .overlay {
   background-color: rgba(41, 41, 41, 0.9) !important;
@@ -205,6 +213,10 @@ header .main_content .top_main .top_content_info button {
   border: 2px solid #fdc721;
   background-color: transparent;
   outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 header .main_content .top_main .top_content_info button a {
@@ -368,8 +380,7 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   min-height: 230px;
 }
 .about .container .columan_flex .pairent_features .chiled .main:hover .style_over {
-  -webkit-clip-path: circle(400px at 0% 0%);
-          clip-path: circle(400px at 0% 0%);
+  clip-path: circle(400px at 0% 0%);
 }
 .about .container .columan_flex .pairent_features .chiled .main:hover button {
   position: relative;
@@ -394,7 +405,15 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   width: 50px;
   height: 50px;
   background-color: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
   border: 1px solid rgba(204, 204, 204, 0.4);
 }
@@ -402,6 +421,10 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   color: #fdc721;
   font-size: 18px;
   z-index: 999;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
 .about .container .columan_flex .pairent_features .chiled .main h4 {
@@ -409,31 +432,39 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   color: #ccc;
   text-transform: capitalize;
   margin: 10px 0 0 0;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
 .about .container .columan_flex .pairent_features .chiled .main span {
   font-size: 19px;
   font-weight: bold;
   color: #292929;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
 .about .container .columan_flex .pairent_features .chiled .main .style_over {
-  -webkit-clip-path: circle(0px at 0% 0%);
-          clip-path: circle(0px at 0% 0%);
+  clip-path: circle(0px at 0% 0%);
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
   background-color: #fdc721 !important;
 }
 .about .container .columan_flex .pairent_features .chiled .main .__one {
-  -webkit-clip-path: circle(0px at 100% 0%);
-          clip-path: circle(0px at 100% 0%);
+  clip-path: circle(0px at 100% 0%);
 }
 .about .container .columan_flex .pairent_features .chiled .main .__tow {
-  -webkit-clip-path: circle(0px at 0% 100%);
-          clip-path: circle(0px at 0% 100%);
+  clip-path: circle(0px at 0% 100%);
 }
 .about .container .columan_flex .pairent_features .chiled .main .__three {
-  -webkit-clip-path: circle(0px at 100% 100%);
-          clip-path: circle(0px at 100% 100%);
+  clip-path: circle(0px at 100% 100%);
 }
 .about .container .columan_flex .pairent_features .style .main {
   margin-top: 100px;
@@ -533,8 +564,7 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   text-transform: capitalize;
 }
 .clients_say .pairent .chiled .main .clip_path span {
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   width: 100px;
   height: 90px;
   display: inline-block;
@@ -608,24 +638,6 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   min-height: 500px;
   animation: change 15s linear 8s infinite alternate;
   -webkit-animation: change 15s linear 8s infinite alternate;
-}
-@-webkit-keyframes change {
-  25% {
-    background-image: url("../img/gallery/1.jpg");
-    background-position: top;
-  }
-  50% {
-    background-image: url("../img/gallery/6.jpg");
-    background-position: right;
-  }
-  75% {
-    background-image: url("../img/gallery/7.jpg");
-    background-position: bottom;
-  }
-  100% {
-    background-image: url("../img/gallery/2.jpg");
-    background-position: left;
-  }
 }
 @keyframes change {
   25% {
@@ -765,6 +777,10 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
 }
 .feedback .pairent .chil_1 .overlay {
   background-color: rgba(41, 41, 41, 0.7) !important;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
   left: 100%;
 }
@@ -863,6 +879,10 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
 .feedback .pairent .chiled .main .foot_info .right span {
   width: 12px;
   height: 12px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
   border: 2px solid #fdc721;
   background-color: transparent;
@@ -980,6 +1000,10 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   background-position: center;
   height: 100%;
   width: 300px;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }
 .features .main_pairent .bottom_pairent {
@@ -996,24 +1020,28 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   overflow: hidden;
 }
 .features .main_pairent .bottom_pairent:hover .add_over1 {
-  -webkit-clip-path: circle(2000px at 100% 0%);
-          clip-path: circle(2000px at 100% 0%);
+  clip-path: circle(2000px at 100% 0%);
 }
 .features .main_pairent .bottom_pairent:hover .add_over2 {
-  -webkit-clip-path: circle(1500px at 100% 0%);
-          clip-path: circle(1500px at 100% 0%);
+  clip-path: circle(1500px at 100% 0%);
 }
 .features .main_pairent .bottom_pairent .add_over1 {
   position: absolute;
-  -webkit-clip-path: circle(0px at 100% 0%);
-          clip-path: circle(0px at 100% 0%);
+  clip-path: circle(0px at 100% 0%);
+  -webkit-transition: all 1.2s ease-in-out;
+  -moz-transition: all 1.2s ease-in-out;
+  -ms-transition: all 1.2s ease-in-out;
+  -o-transition: all 1.2s ease-in-out;
   transition: all 1.2s ease-in-out;
   background-color: rgba(253, 199, 33, 0.1) !important;
 }
 .features .main_pairent .bottom_pairent .add_over2 {
   position: absolute;
-  -webkit-clip-path: circle(0px at 100% 0%);
-          clip-path: circle(0px at 100% 0%);
+  clip-path: circle(0px at 100% 0%);
+  -webkit-transition: all 1.7s ease-in-out;
+  -moz-transition: all 1.7s ease-in-out;
+  -ms-transition: all 1.7s ease-in-out;
+  -o-transition: all 1.7s ease-in-out;
   transition: all 1.7s ease-in-out;
   background-color: rgba(253, 199, 33, 0.2) !important;
 }
@@ -1072,11 +1100,19 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
 .features .main_pairent .bottom_pairent .right_cont .pairent .chiled .main {
   padding: 20px 20px;
   background-color: #fff;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
   border-radius: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   border-top: 5px dashed #fdc721;
   border-right: 5px dashed #fdc721;
@@ -1123,6 +1159,10 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   background-color: rgba(41, 41, 41, 0.1) !important;
   background-size: cover;
   background-position: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   flex-grow: 1;
 }
@@ -1205,6 +1245,10 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   border: 4px double #fff;
   background-color: transparent;
   outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .devition_content .pairent .chiled .main .hidden .link button:hover {
@@ -1430,6 +1474,10 @@ footer .main_pairent .pairent h3::before {
   margin-left: 1px;
   margin-top: 37px;
   background: #fdc721;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
 }
 footer .main_pairent .pairent .chiled .main h3, footer .main_pairent .pairent .chiled .main span {
@@ -1508,6 +1556,10 @@ footer .main_pairent .pairent .tuch_link ul li {
   padding: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -1522,6 +1574,10 @@ footer .main_pairent .pairent .tuch_link ul li a {
   text-transform: capitalize;
   color: #fff;
   font-size: 18px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 footer .main_pairent .pairent .img_pairent {
@@ -1538,6 +1594,10 @@ footer .main_pairent .pairent .img_pairent .item {
   flex-wrap: wrap;
   gap: 5px;
   justify-content: space-around;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 footer .main_pairent .pairent .img_pairent .item .con {
@@ -1557,6 +1617,10 @@ footer .main_pairent .pairent .img_pairent .item .con:hover img {
 footer .main_pairent .pairent .img_pairent .item .con img {
   height: 100px;
   width: 120px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   overflow: hidden !important;
 }
@@ -1601,4 +1665,4 @@ footer hr.hr {
 /******************
   all coy right are reserved to this design   thanks for reading  this few word 
 
-*****************//*# sourceMappingURL=style.css.map */
+*****************/
