@@ -979,7 +979,7 @@ header .main_content .bottom_content_info .pairent .chiled.style span span {
   background-size: cover;
   background-position: center;
   height: 100%;
-  width: 300px;
+  width: 100%;
   transition: all 2s ease-in-out;
 }
 .features .main_pairent .bottom_pairent {
